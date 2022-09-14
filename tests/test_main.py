@@ -1,6 +1,6 @@
 from starlite.testing import TestClient
 
-from main import app
+from app.main import app
 
 
 def test_app() -> None:
